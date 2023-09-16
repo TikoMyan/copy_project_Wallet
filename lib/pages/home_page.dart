@@ -1,4 +1,5 @@
 import 'package:first_project/helpers/colors.dart';
+import 'package:first_project/pages/banking_item_page.dart';
 import 'package:first_project/pages/bon_item_page.dart';
 import 'package:first_project/pages/main_item_page.dart';
 import 'package:flutter/material.dart';
@@ -67,10 +68,13 @@ class _HomePageState extends State<HomePage> {
     switch (currentTab) {
       case 0:
         return const MainPageWidget();
+      
       case 1:
         return const BonPageWidget();
         case 2:
         return  QrCodePage();
+        case 3:
+        return  BankingWidget();
       default:
         return Container();
     }
