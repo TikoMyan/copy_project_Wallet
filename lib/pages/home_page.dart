@@ -25,17 +25,20 @@ class _HomePageState extends State<HomePage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return 
+    
+    Scaffold(
       backgroundColor: AppColors.bgColor,
-      appBar:
-      AppBar(
-        backgroundColor: AppColors.bgColor,
-        elevation: 0,
-        title: Padding(
-          padding: const EdgeInsets.only(bottom: 10),
-          child: getAppBar(),
-        ),
-      ),
+      // appBar:
+      // AppBar(
+        
+      //   backgroundColor: AppColors.bgColor,
+      //   elevation: 0,
+      //   title: Padding(
+      //     padding: const EdgeInsets.only(bottom: 10),
+      //     child: getAppBar(),
+      //   ),
+      // ),
       body: body(),
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
@@ -79,21 +82,21 @@ class _HomePageState extends State<HomePage> {
         return Container();
     }
   }
-  Widget appBar(){
-    return getAppBar();
-  }
-  Widget getAppBar(){
-    switch (currentTab) {
-      case 0:
-        return  appBarHome();
-      case 1:
-        return  appBarBon();
-        case 2:
-        return  appBarqrCode();
-        case 3:
-        return appBarBancing();
-      default:
-        return appBarHome();
-    }
-  }
+  // Widget appBar(){
+  //   return getAppBar();
+  // }
+  // Widget getAppBar(){
+  //   switch (currentTab) {
+  //     case 0:
+  //       return  appBarHome();
+  //     case 1:
+  //       return  appBarBon();
+  //       case 2:
+  //       return  appBarqrCode();
+  //       case 3:
+  //       return appBarBancing();
+  //     default:
+  //       return appBarHome();
+  //   }
+  // }
 }

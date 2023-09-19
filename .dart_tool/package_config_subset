@@ -50,6 +50,14 @@ path
 2.12
 file:///C:/Users/Windows10/AppData/Local/Pub/Cache/hosted/pub.dev/path-1.8.3/
 file:///C:/Users/Windows10/AppData/Local/Pub/Cache/hosted/pub.dev/path-1.8.3/lib/
+qr
+2.16
+file:///C:/Users/Windows10/AppData/Local/Pub/Cache/hosted/pub.dev/qr-3.0.1/
+file:///C:/Users/Windows10/AppData/Local/Pub/Cache/hosted/pub.dev/qr-3.0.1/lib/
+qr_flutter
+2.19
+file:///C:/Users/Windows10/AppData/Local/Pub/Cache/hosted/pub.dev/qr_flutter-4.1.0/
+file:///C:/Users/Windows10/AppData/Local/Pub/Cache/hosted/pub.dev/qr_flutter-4.1.0/lib/
 source_span
 2.18
 file:///C:/Users/Windows10/AppData/Local/Pub/Cache/hosted/pub.dev/source_span-1.10.0/
@@ -84,8 +92,8 @@ file:///C:/Users/Windows10/AppData/Local/Pub/Cache/hosted/pub.dev/web-0.1.4-beta
 file:///C:/Users/Windows10/AppData/Local/Pub/Cache/hosted/pub.dev/web-0.1.4-beta/lib/
 first_project
 2.19
-file:///C:/Users/Windows10/Downloads/telcell_clone/
-file:///C:/Users/Windows10/Downloads/telcell_clone/lib/
+file:///C:/Users/Windows10/Desktop/wallet_flutter/
+file:///C:/Users/Windows10/Desktop/wallet_flutter/lib/
 sky_engine
 3.0
 file:///E:/flutter/flutter/bin/cache/pkg/sky_engine/

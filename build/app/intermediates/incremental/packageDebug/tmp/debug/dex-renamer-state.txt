@@ -1,4 +1,4 @@
-#Sat Sep 16 21:14:19 SAMT 2023
+#Tue Sep 19 10:44:42 SAMT 2023
 base.0=C\:\\Users\\Windows10\\Desktop\\wallet_flutter\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

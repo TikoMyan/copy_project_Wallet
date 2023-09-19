@@ -1,17 +1,16 @@
-import 'package:flutter/material.dart';
+// import 'package:flutter/material.dart';
 
-import '../../helpers/colors.dart';
+// import '../../helpers/colors.dart';
 
-class appBarqrCode extends StatelessWidget{
-  appBarqrCode({super.key});
+// class appBarqrCode extends StatelessWidget{
+//   appBarqrCode({super.key});
 
-  @override
-  Widget build(BuildContext context) {
+//   @override
+//   Widget build(BuildContext context) {
     
-    return AppBar(
-      backgroundColor: AppColors.bgColor,
-        elevation: 0,
-        title: Text('QR կոդ',style:TextStyle(color: AppColors.appBlack),),
-    );
-  }
-}
+//     return 
+//     AppBar(
+      
+//     );
+//   }
+// }

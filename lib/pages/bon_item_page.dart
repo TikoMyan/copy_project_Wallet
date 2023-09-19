@@ -8,57 +8,81 @@ class BonPageWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      
-      children: [
-        SingleChildScrollView(
-        
-          scrollDirection: Axis.horizontal,
-          child: Row(
-            children: [
-              topButtom(
-                  icon: const Icon(Icons.shopping_bag_rounded), text: 'Մարկետ'),
-              topButtom(
-                  icon: const Icon(Icons.signal_cellular_4_bar_rounded),
-                  text: 'Իմ ապրանքներ'),
-              topButtom(
-                  icon: const Icon(Icons.sentiment_very_satisfied_sharp),
-                  text: 'Հրավիրել ընկերներին'),
-              topButtom(icon: const Icon(Icons.handshake), text: 'Գործընկերներ'),
-              topButtom(
-                  icon: const Icon(Icons.confirmation_number),
-                  text: 'Միջոցառումներ'),
-            ],
-          ),
-        ),
-        const Padding(
-          padding: EdgeInsets.symmetric(horizontal: 15,vertical: 5),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Text('Top ապրանքներ'),
-              Text('դիտել բոլորը'),
-            ],
-          ),
-          
-        ),
-        
-    Expanded(child: 
-      SingleChildScrollView(
-        scrollDirection: Axis.vertical,
-        child: Column(
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: AppColors.bgColor,
+        elevation: 0,
+        title:  Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-           bonItems(context),
-              bonItems(context),
-              bonItems(context),
-              bonItems(context),
-              bonItems(context),
-              bonItems(context),
+            const Text('BON',style: TextStyle(color: Colors.black),),
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+
+                TextButton.icon(onPressed: (){}, label: Text('0'), icon: Icon(Icons.currency_bitcoin_sharp),style: ButtonStyle(
+                  
+                ),),
+                Text('Minchev 30 sep 2023 !',style: TextStyle(color: Colors.black,fontSize: 5),),
+                
+              ],
+            )
           ],
         ),
-      ))
-      ],
-      
+          
+      ),
+      body: Column(
+        
+        children: [
+          SingleChildScrollView(
+          
+            scrollDirection: Axis.horizontal,
+            child: Row(
+              children: [
+                topButtom(
+                    icon: const Icon(Icons.shopping_bag_rounded), text: 'Մարկետ'),
+                topButtom(
+                    icon: const Icon(Icons.signal_cellular_4_bar_rounded),
+                    text: 'Իմ ապրանքներ'),
+                topButtom(
+                    icon: const Icon(Icons.sentiment_very_satisfied_sharp),
+                    text: 'Հրավիրել ընկերներին'),
+                topButtom(icon: const Icon(Icons.handshake), text: 'Գործընկերներ'),
+                topButtom(
+                    icon: const Icon(Icons.confirmation_number),
+                    text: 'Միջոցառումներ'),
+              ],
+            ),
+          ),
+          const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 15,vertical: 5),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Text('Top ապրանքներ'),
+                Text('դիտել բոլորը'),
+              ],
+            ),
+            
+          ),
+          
+      Expanded(child: 
+        SingleChildScrollView(
+          scrollDirection: Axis.vertical,
+          child: Column(
+            children: [
+             bonItems(context),
+                bonItems(context),
+                bonItems(context),
+                bonItems(context),
+                bonItems(context),
+                bonItems(context),
+            ],
+          ),
+        ))
+        ],
+        
+      ),
     );
     
   }
